@@ -1,0 +1,9 @@
+# Glossar für Eunomia
+# Format:  Vorzugsbegriff: verbotenes Synonym, verbotenes Synonym
+# Zeilen mit # werden ignoriert. Ein Eintrag pro Sache.
+# Das Prüfskript meldet jedes Synonym als harten Verstoß (alle Stufen).
+#
+# Beispiel:
+# Pumpe: Aggregat, Fördereinheit
+# Bediener: Benutzer, Anwender, Operator
+# einschalten: aktivieren, in Betrieb nehmen, starten

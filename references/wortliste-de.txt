@@ -1,0 +1,19 @@
+# Eigene Ersatzliste für Deutsch (STE100 hat keine deutsche Fassung).
+# Format: zu meiden > Ersatz
+# Stufe 100: Treffer sind harte Verstöße. Stufe 80: Hinweise. Stufe 60: aus.
+beinhalten > enthalten
+beinhaltet > enthält
+unter Zuhilfenahme > mit
+zum gegenwärtigen Zeitpunkt > jetzt
+Berücksichtigung > berücksichtigen (Verb)
+Durchführung > durchführen / konkretes Verb
+Inbetriebnahme > einschalten / starten
+Überprüfung > prüfen (Verb)
+seitens > von
+diesbezüglich > dazu
+selbige > diese
+obig > oben genannt
+nachfolgend > unten / danach
+vorstehend > oben
+insbesondere > vor allem
+gemäß > nach

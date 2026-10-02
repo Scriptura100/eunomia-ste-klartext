@@ -1,0 +1,38 @@
+# Eigene Ersatzliste (kein Auszug aus der ASD-STE100-Spezifikation).
+# Format: zu meiden > Ersatz
+# Stufe 100: Treffer sind harte Verstöße. Stufe 80: Hinweise. Stufe 60: aus.
+utilize > use
+utilise > use
+make use of > use
+commence > start
+initiate > start
+terminate > stop
+ensure > make sure
+approximately > about
+prior to > before
+subsequent to > after
+in order to > to
+in the event that > if
+is able to > can
+are able to > can
+it is necessary to > imperative / must
+perform an inspection > examine
+make an adjustment > adjust
+carry out > do
+sufficient > enough
+due to > because of
+in addition > also
+additional > more
+assist > help
+obtain > get
+require > need
+requires > needs
+indicate > show
+indicates > shows
+modify > change
+numerous > many
+accomplish > do
+attempt > try
+facilitate > help / make easier
+whereas > but
+therefore > thus / so
