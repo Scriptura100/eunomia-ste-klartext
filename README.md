@@ -32,7 +32,3 @@ python3 scripts/ste_check.py text.txt --lang de --typ anweisend --stufe 80
 ```
 
 Das Skript ist eine Heuristik, kein Parser. Jede Markierung selbst bewerten.
-
-## Hinweis
-
-`SKILL.md` verweist an einer Stelle auf andere Skills (`apollon-rhetorik-veredelung`, `hephaistos-anti-ai-writing`, `aristarchos-textpruefstand`). Sie gehören nicht zu diesem Repository.
