@@ -19,6 +19,33 @@ Quelle: [Andrej Karpathy auf X, 2. Oktober 2026](https://x.com/karpathy/status/2
 
 Nicht gedacht ist er für Leichte Sprache.
 
+## Beispiel
+
+Eine Wartungsanweisung, deutsch, Stufe 80.
+
+**Vorher**
+
+> Nachdem die Abdeckung, welche mit vier Schrauben befestigt ist, entfernt wurde, sollte die Überprüfung des Filters auf eventuell vorhandene Verschmutzungen durchgeführt und dieser gegebenenfalls ersetzt werden.
+
+**Nachher**
+
+> 1. Lösen Sie die vier Schrauben der Abdeckung.
+> 2. Entfernen Sie die Abdeckung.
+> 3. Prüfen Sie den Filter auf Schmutz.
+> 4. Wenn der Filter verschmutzt ist, ersetzen Sie ihn.
+
+Gemessen mit `scripts/ste_check.py` (Stufe 80, Textart anweisend):
+
+| | Vorher | Nachher |
+|---|---:|---:|
+| Sätze | 1 | 4 |
+| Wörter je Satz (Durchschnitt) | 26 | 7,2 |
+| Stufenquote (Ziel mindestens 95 %) | 0 % | 100 % |
+
+Das Skript markiert im Ausgangssatz zwei harte Verstöße: 26 statt höchstens 20 Wörter und Passiv. Dazu kommen Hinweise auf Nominalstil („Überprüfung“, „Verschmutzungen“), vage Wörter („eventuell“, „gegebenenfalls“, „sollte“) und einen Schachtelsatz. Im Ergebnis stehen vier Schritte mit je einer Handlung, die Bedingung steht vorn und das Verb im Imperativ.
+
+Das Beispiel besteht aus einem einzelnen Satz, die Quote ist deshalb grob. Bei längeren Texten liegt sie dazwischen.
+
 ## Inhalt
 
 | Datei | Zweck |
