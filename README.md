@@ -32,3 +32,7 @@ python3 scripts/ste_check.py text.txt --lang de --typ anweisend --stufe 80
 ```
 
 Das Skript ist eine Heuristik, kein Parser. Jede Markierung selbst bewerten.
+
+## Lizenz
+
+MIT-Lizenz, siehe [LICENSE](LICENSE). © 2026 URWORTE | Nils Brauer
